@@ -27,9 +27,9 @@
 ![Itachi's mangekyou sharingan](https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/05/26/naruto-itachi-uchiha-mangekyou-sharingan.jpeg)
 
 > "Every jutsu has its weakness"
->
+> 
 > "People's lives don't end when they die. It ends when they lose faith"
->
+> 
 > -- Itachi Uchiha
 
 ### Eternal Mangekyou Sharingan

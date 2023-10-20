@@ -1,0 +1,42 @@
+.section-hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #333;
+  background-image: url(https://images.unsplash.com/photo-1619494296448-ab5f847ece97?auto=format&fit=crop&q=80&w=1450&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  /* background-attachment: inherit; */
+  /* background-size: 100px 100px; */
+  height: 600px;
+  padding-top: 48px;
+}
+
+.photo-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.gallery {
+  width: 25%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* .photo-1 {
+  object-position: 0px -32px;
+}
+
+.photo-2 {
+  object-position: -70px 0px;
+}
+
+.photo-3 {
+  object-position: -30px 0px;
+}
+
+.photo-4 {
+  object-position: -10px 0px;
+} */
