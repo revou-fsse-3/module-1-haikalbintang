@@ -33,10 +33,63 @@ h3 {
   -webkit-text-stroke: 0.1rem #000;
 }
 
+.logo-notif {
+  font-size: 1.2rem;
+  letter-spacing: 0rem;
+  background-color: #b60000;
+  border-radius: 100%;
+  width: 2.1rem;
+  height: 2.1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0.5rem;
+  left: 14.9rem;
+}
+
 .main-nav {
   display: flex;
   /* justify-content: center; */
   align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+/* .search-form {
+  all: unset;
+} */
+
+.search-form-input {
+  width: 20rem;
+  padding: 1rem 1rem 0.7rem 1rem;
+  border: 0rem solid #ccc;
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+  font-size: 1.6rem;
+  /* margin: -1rem 0rem 0rem 0rem; */
+}
+
+.search-form-button {
+  background-color: #384423;
+  color: #fff;
+  border: none;
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
+  padding: 1rem 2rem;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.search-form-button:hover {
+  background-color: #425029;
+}
+
+.search-form-button i {
+  font-size: 2rem;
 }
 
 .main-nav-list {
@@ -50,8 +103,8 @@ h3 {
   align-items: center;
   margin: 0 1.3rem;
   font-size: 1.6rem;
+  font-weight: 520;
   text-decoration: none;
-  color: #fff;
   /* display: inline-block; */
 }
 
@@ -62,11 +115,12 @@ a:visited {
 
 .main-nav-link:not(:last-child) a:hover,
 a:active {
-  color: #f3a51c;
-  transition-duration: 0.15s;
+  color: #db9519;
+  transition-duration: 0.13s;
 }
 
-.cheetah-btn a {
+.main-nav-link:last-child a:link,
+a:visited {
   background-color: #f3a51c;
   padding: 1rem 2rem;
   border-radius: 0.5rem;
@@ -74,13 +128,10 @@ a:active {
   margin-right: 2rem;
 }
 
-/* .cheetah-btn > a:hover,
+.main-nav-link:last-child a:hover,
 a:active {
   background-color: #db9519;
-} */
-
-.cheetah-btn:hover {
-  background-color: #db9519;
+  transition-duration: 0.13s;
 }
 
 /* MAIN */
@@ -146,9 +197,9 @@ a:active {
 }
 
 .hero-desc {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   line-height: 1.5;
-  margin: 1.6rem;
+  margin: 1.5rem;
   font-family: "Roboto Serif", serif;
 }
 
@@ -157,8 +208,9 @@ a:active {
 .heading-secondary {
   font-size: 4rem;
   margin-bottom: 3rem;
-  color: #5e723b;
+  color: #384423;
 }
+
 .photo-container {
   display: flex;
   justify-content: space-between;

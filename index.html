@@ -11,6 +11,11 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/style.css" />
 
@@ -18,6 +23,7 @@
 
     <title>AADC</title>
   </head>
+
   <body>
     <header class="header">
       <a class="logo" href="#">
@@ -27,10 +33,27 @@
           alt="Cheetah cute logo"
         />
         <strong class="logo-title">AADC</strong>
+        <span class="logo-notif">2+</span>
       </a>
       <nav class="main-nav">
+        <div class="search-container">
+          <form
+            class="search-form"
+            action="https://en.wikipedia.org/wiki/Cheetah"
+            method="get"
+          >
+            <input
+              class="search-form-input"
+              type="text"
+              placeholder="Search..."
+            />
+            <button class="search-form-button">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
         <ul class="main-nav-list">
-          <li class="main-nav-link link">
+          <li class="main-nav-link">
             <a href="#">Ada</a>
           </li>
           <li class="main-nav-link"><a href="#">Apa</a></li>
