@@ -169,3 +169,26 @@ main > section {
 .facts-content-photo {
   height: 40rem;
 }
+
+/* VIDEO */
+
+.section-video {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-cheetah-running {
+  margin: auto;
+}
+
+/* FORM */
+
+.section-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-like {
+  font-size: 3rem;
+  margin: auto;
+}
