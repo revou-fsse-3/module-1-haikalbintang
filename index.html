@@ -33,7 +33,7 @@
           alt="Cheetah cute logo"
         />
         <strong class="logo-title">AADC</strong>
-        <span class="logo-notif">2+</span>
+        <span class="logo-notif" id="logo-notif">0</span>
       </a>
       <nav class="main-nav">
         <div class="search-container">
@@ -77,9 +77,47 @@
         </p>
       </section>
 
-      <section class="section-photos">
+      <section class="section-love">
         <h2 class="heading-secondary">Cheetah Photos</h2>
-        <div class="photo-container">
+        <div class="love-images grid--4-cols">
+          <div class="love-image">
+            <img
+              class="gallery photo-1"
+              src="./img/gallery/photos-1.jpg"
+              alt=""
+            />
+            <div class="overlay"></div>
+          </div>
+          <div class="love-image">
+            <img
+              class="gallery photo-2"
+              src="./img/gallery/photos-2.jpg"
+              alt=""
+            />
+            <div class="overlay"></div>
+          </div>
+          <div class="love-image">
+            <img
+              class="gallery photo-3"
+              src="./img/gallery/photos-3.jpg"
+              alt=""
+            />
+            <div class="overlay"></div>
+          </div>
+          <div class="love-image">
+            <img
+              class="gallery photo-4"
+              src="./img/gallery/photos-4.jpg"
+              alt=""
+            />
+            <div class="overlay"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="section-photos">
+        <h2 class="heading-secondary">Cheetah Photos</h2>
+        <div class="photos-container">
           <img
             class="gallery photo-1"
             src="./img/gallery/photos-1.jpg"
@@ -104,7 +142,7 @@
             alt=""
           />
         </div>
-      </section>
+      </section> -->
 
       <section class="section-facts">
         <h2 class="heading-secondary">Facts about Cheetahs</h2>
@@ -145,11 +183,11 @@
 
       <section class="section-form">
         <h2 class="heading-secondary">Join AADC!</h2>
-        <button class="form-like" onclick="like()">We ❤️ Cheetah!</button>
+        <button class="form-like" id="increment-button">We ❤️ Cheetah!</button>
       </section>
     </main>
 
     <footer></footer>
-    <script src="./js/index.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
