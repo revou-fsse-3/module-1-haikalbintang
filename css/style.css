@@ -10,6 +10,7 @@ h3 {
   border-bottom: 0.4rem solid #13170c;
   position: fixed;
   z-index: 2;
+  max-width: 1366px;
   width: 100%;
   background-color: #5e723b;
 }
@@ -384,3 +385,18 @@ a:active {
   background-color: #db9519;
   transition-duration: 0.13s;
 }
+
+@media screen and (min-width: 1366px) {
+  body {
+    max-width: 1366px;
+    margin: auto;
+    background-color: #ddd9d3;
+    box-shadow: 0rem 0rem 1rem #384423;
+  }
+}
+/* @media screen and (max-width: 1920px) {
+  body {
+    max-width: 1366px;
+    margin: auto;
+  }
+} */
