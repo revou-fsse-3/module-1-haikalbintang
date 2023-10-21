@@ -1,3 +1,7 @@
+# CHECKPOINT#2
+
+**Link Deploy:** **[Cheetah Photo App](https://profound-dusk-49219e.netlify.app/)**
+
 # DOUJUTSU NARUTO
 
 **[Naruto](https://en.wikipedia.org/wiki/Naruto)** is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition of his peers and dreams of becoming the Hokage, the leader of his village. In Naruto, **[Doujutsu](https://naruto.fandom.com/wiki/D%C5%8Djutsu)** (meaning eye techniques) has three most popular and greatest types:
@@ -27,9 +31,9 @@
 ![Itachi's mangekyou sharingan](https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/05/26/naruto-itachi-uchiha-mangekyou-sharingan.jpeg)
 
 > "Every jutsu has its weakness"
-> 
+>
 > "People's lives don't end when they die. It ends when they lose faith"
-> 
+>
 > -- Itachi Uchiha
 
 ### Eternal Mangekyou Sharingan
