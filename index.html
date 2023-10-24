@@ -61,10 +61,13 @@
           </li>
           <li class="main-nav-link"><a href="#">Apa</a></li>
           <li class="main-nav-link"><a href="#">Dengan</a></li>
-          <li class="main-nav-link cheetah-btn"><a href="#">Cheetah?</a></li>
+          <li class="main-nav-link cheetah-btn">
+            <a href="#section-form">Cheetah?</a>
+          </li>
         </ul>
       </nav>
     </header>
+    <header class="below-header"></header>
 
     <div class="under-header"></div>
 
@@ -138,16 +141,27 @@
         <h2 class="heading-secondary">Facts about Cheetahs</h2>
         <div class="facts-content">
           <ul class="facts-content-ul">
-            <li>Cheetahs are the fastest land animal on Earth.</li>
-            <li>Cheetahs have around 2000 spots.</li>
-            <li>Cheetahs use their spotted coat as a disguise.</li>
-            <li>Cheetahs can give birth to 2-8 cubs at a time.</li>
-            <li>Cheetahs don’t roar.</li>
-            <li>Cheetahs have excellent eyesight.</li>
-            <li>Cheetahs only hunt during the day.</li>
-            <li>Cheetahs live up to 10 years in the wild.</li>
-            <li>Can survive up to 10 days without water</li>
-            <li>The population of cheetahs is only around 7000</li>
+            <li>
+              Cheetahs are the <strong>fastest</strong> land animal on Earth.
+            </li>
+            <li>Cheetahs have around <strong>2000 spots</strong>.</li>
+            <li>
+              Cheetahs use their spotted coat as a <strong>disguise</strong>.
+            </li>
+            <li>
+              Cheetahs can give birth to <strong>2-8 cubs</strong> at a time.
+            </li>
+            <li>Cheetahs <strong>don’t roar</strong>.</li>
+            <li>Cheetahs have <strong>excellent eyesight</strong>.</li>
+            <li>
+              Cheetahs only <strong>hunt</strong> during the
+              <strong>day</strong>.
+            </li>
+            <li>Cheetahs live up to <strong>10 years</strong> in the wild.</li>
+            <li>Can survive up to <strong>10 days</strong> without water.</li>
+            <li>
+              The population of cheetahs is only around <strong>7000.</strong>
+            </li>
           </ul>
           <img
             class="facts-content-photo"
@@ -179,19 +193,17 @@
     <div class="section-space"></div>
 
     <main class="main">
-      <section class="section-form">
+      <section id="section-form" class="section-form">
         <h2 class="heading-secondary">Join AADC!</h2>
         <button class="form-like" id="increment-button">We ❤️ Cheetah!</button>
       </section>
     </main>
 
-    <footer class="footer-form">
+    <footer id="footer-form" class="footer-form">
       <h2>Contribute to this Community!</h2>
-      <form action="" method="get" class="form-feedback">
+      <form action="" method="get" id="form-sign-in">
         <fieldset>
           <legend>Sign In</legend>
-          username password what is your fav animal? why do you love cheetah so
-          much? any feedback?
           <div>
             <label for="username">username:</label>
             <input
@@ -208,6 +220,8 @@
           </div>
           <input type="submit" value="Sign in" />
         </fieldset>
+      </form>
+      <form action="" method="get" id="form-feedback">
         <fieldset>
           <legend>Tell Us What You Wanna Tell</legend>
           <div>
