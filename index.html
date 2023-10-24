@@ -25,6 +25,9 @@
   </head>
 
   <body>
+    <header class="above-header">
+      <p>Powered by RevoU</p>
+    </header>
     <header class="header">
       <a class="logo" href="#">
         <img
@@ -78,17 +81,23 @@
           the fastest mammal on earth!
         </p>
       </section>
+    </main>
 
+    <div class="section-space"></div>
+
+    <main class="main main-love">
       <section class="section-love">
         <h2 class="heading-secondary">Cheetah Photos</h2>
         <div class="love-images grid--4-cols">
-          <div class="love-image">
+          <div id="love-test" class="love-image">
             <img
               class="gallery photo-1"
               src="./img/gallery/photos-1.jpg"
               alt=""
             />
             <div class="overlay"></div>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-heart" style="color: #b60000"></i>
           </div>
           <div class="love-image">
             <img
@@ -116,36 +125,11 @@
           </div>
         </div>
       </section>
+    </main>
 
-      <!-- <section class="section-photos">
-        <h2 class="heading-secondary">Cheetah Photos</h2>
-        <div class="photos-container">
-          <img
-            class="gallery photo-1"
-            src="./img/gallery/photos-1.jpg"
-            alt=""
-          />
+    <div class="section-space"></div>
 
-          <img
-            class="gallery photo-2"
-            src="./img/gallery/photos-2.jpg"
-            alt=""
-          />
-
-          <img
-            class="gallery photo-3"
-            src="./img/gallery/photos-3.jpg"
-            alt=""
-          />
-
-          <img
-            class="gallery photo-4"
-            src="./img/gallery/photos-4.jpg"
-            alt=""
-          />
-        </div>
-      </section> -->
-
+    <main class="main main-facts">
       <section class="section-facts">
         <h2 class="heading-secondary">Facts about Cheetahs</h2>
         <div class="facts-content">
@@ -168,7 +152,11 @@
           />
         </div>
       </section>
+    </main>
 
+    <div class="section-space"></div>
+
+    <main class="main main-video">
       <section class="section-video">
         <h2 class="heading-secondary">A-Cheetah-Running Video</h2>
         <iframe
@@ -182,7 +170,11 @@
           allowfullscreen
         ></iframe>
       </section>
+    </main>
 
+    <div class="section-space"></div>
+
+    <main class="main">
       <section class="section-form">
         <h2 class="heading-secondary">Join AADC!</h2>
         <button class="form-like" id="increment-button">We ❤️ Cheetah!</button>

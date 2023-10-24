@@ -1,19 +1,52 @@
+/* # BODY */
+
+body {
+  background-image: linear-gradient(
+      rgb(0, 0, 0),
+      rgba(255, 255, 255, 0),
+      rgb(0, 0, 0)
+    ),
+    url(https://static.vecteezy.com/system/resources/previews/001/834/542/non_2x/abstract-dots-animal-print-design-leopard-print-design-cheetah-skin-background-free-vector.jpg);
+  /* background-color: #00000049; */
+}
+
 h2,
 h3 {
   display: flex;
   justify-content: center;
 }
 
+/* ## ABOVE-HEADER */
+
+.above-header {
+  background-color: #fcdc2c;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: static;
+  & p {
+    color: #080804;
+    font-size: 1.6rem;
+  }
+}
+
+/* ## HEADER */
+
 .header {
   display: flex;
   justify-content: space-between;
   border-bottom: 0.4rem solid #13170c;
-  position: fixed;
+  position: sticky;
+  top: 0rem;
   z-index: 2;
   max-width: 1366px;
   width: 100%;
   background-color: #5e723b;
+  border-radius: 0rem 0rem 1rem 1rem;
 }
+
+/* ### LOGO */
 
 .logo {
   display: flex;
@@ -57,15 +90,13 @@ h3 {
   align-items: center;
 }
 
+/* ### SEARCH BAR */
+
 .search-container {
   display: flex;
   align-items: center;
   margin-right: 2rem;
 }
-
-/* .search-form {
-  all: unset;
-} */
 
 .search-form-input {
   width: 20rem;
@@ -93,6 +124,8 @@ h3 {
 .search-form-button i {
   font-size: 2rem;
 }
+
+/* ### NAV */
 
 .main-nav-list {
   display: flex;
@@ -137,23 +170,27 @@ a:active {
   transition-duration: 0.13s;
 }
 
-/* UNDER-HEADER */
+/* ## UNDER-HEADER */
 
-.under-header {
-  height: 5rem;
+div.under-header {
+  height: 0rem;
 }
 
-/* MAIN */
+/* ## MAIN */
 
 .main {
   background-color: #f5f1ea;
+  box-shadow: 0rem 0rem 1rem #384423;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  /* border: 0.4rem solid #13170c; */
 }
 
-.main section:not(:last-child) {
+/* .main section:not(:last-child) {
   margin-bottom: 5rem;
-}
+} */
 
-/* HERO */
+/* ### HERO */
 
 .section-hero {
   display: flex;
@@ -161,7 +198,7 @@ a:active {
   color: #fff;
   background-color: #333;
   background-position: center;
-  height: 60rem;
+  height: 65rem;
   padding-top: 4.8rem;
   justify-content: space-between;
   background-image: linear-gradient(
@@ -213,19 +250,52 @@ a:active {
   line-height: 1.5;
   margin: 1.5rem;
   font-family: "Roboto Serif", serif;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
+}
+
+/* UNDER HERO */
+
+div.section-space {
+  height: 1rem;
+  background-color: #ffffff00;
 }
 
 /* LOVES */
+
+.main-love {
+  height: 37rem;
+}
 
 .love-image {
   position: relative;
   /* z-index: 1; */
   /* overflow: hidden; */
+  /* cursor: pointer; */
+}
+
+.fa-heart {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 5rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.love-image:hover .fa-heart {
+  opacity: 1;
   cursor: pointer;
 }
 
-.overlay {
+/* .love-image:hover .overlay {
+  opacity: 1;
+} */
+
+/* .love-image:hover .love-btn {
+  opacity: 1;
+} */
+
+/* .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -238,11 +308,16 @@ a:active {
   );
   opacity: 0;
   transition: opacity 0.3s;
-}
+} */
 
-.love-image:hover .overlay {
-  opacity: 1;
-}
+/* .love-btn {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 5rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+} */
 
 /* .love-images {
   height: 20rem;
@@ -272,14 +347,16 @@ a:active {
   width: 100%;
   height: 200px;
   object-fit: cover;
-  box-shadow: 0rem 0rem 1rem #384423;
+  /* box-shadow: 0rem 0rem 1rem #384423; */
 }
 
 /* PHOTOS */
 
 .heading-secondary {
   font-size: 4rem;
-  margin-bottom: 3rem;
+  padding: 4rem 0rem 3rem;
+  /* margin-top: 4rem;
+  margin-bottom: 3rem; */
   color: #384423;
 }
 
@@ -333,6 +410,10 @@ a:active {
 
 /* FACTS */
 
+.main-facts {
+  height: 57rem;
+}
+
 .facts-content {
   display: flex;
   justify-content: space-around;
@@ -351,6 +432,10 @@ a:active {
 }
 
 /* VIDEO */
+
+.main-video {
+  height: 48rem;
+}
 
 .section-video {
   display: flex;
@@ -390,8 +475,8 @@ a:active {
   body {
     max-width: 1366px;
     margin: auto;
-    background-color: #ddd9d3;
-    box-shadow: 0rem 0rem 1rem #384423;
+    /* background-color: #ddd9d3; */
+    /* box-shadow: 0rem 0rem 1rem #384423; */
   }
 }
 /* @media screen and (max-width: 1920px) {
