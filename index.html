@@ -97,7 +97,11 @@
             />
             <div class="overlay"></div>
             <i class="fa-regular fa-heart"></i>
-            <i class="fa-solid fa-heart" style="color: #b60000"></i>
+            <i
+              id="love-button"
+              class="fa-solid fa-heart"
+              style="color: #b60000"
+            ></i>
           </div>
           <div class="love-image">
             <img
@@ -181,7 +185,52 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="footer-form">
+      <h2>Contribute to this Community!</h2>
+      <form action="" method="get" class="form-feedback">
+        <fieldset>
+          <legend>Sign In</legend>
+          username password what is your fav animal? why do you love cheetah so
+          much? any feedback?
+          <div>
+            <label for="username">username:</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              required
+              size="10"
+            />
+          </div>
+          <div>
+            <label for="password">password:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <input type="submit" value="Sign in" />
+        </fieldset>
+        <fieldset>
+          <legend>Tell Us What You Wanna Tell</legend>
+          <div>
+            <p>What is your favorite animal?</p>
+            <input type="radio" id="cheetah-1" name="cheetah" value="cheetah" />
+            <label for="cheetah-1">Cheetah</label>
+            <input type="radio" id="cheetah-2" name="cheetah" value="cheetah" />
+            <label for="cheetah-2">Cheetah. 🤬</label>
+            <input type="radio" id="cheetah-3" name="cheetah" value="cheetah" />
+            <label for="cheetah-3">Of course, Cheetah! 😆</label>
+          </div>
+          <div>
+            <p>Why do you love Cheetah so much?</p>
+            <textarea rows="3"></textarea>
+          </div>
+          <div>
+            <p>Any feedback?</p>
+            <textarea rows="3"></textarea>
+          </div>
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
+    </footer>
     <script src="./js/script.js"></script>
   </body>
 </html>

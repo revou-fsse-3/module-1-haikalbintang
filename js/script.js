@@ -1,7 +1,7 @@
 "use strict";
 
 const likeButton = document.getElementById("increment-button");
-const loveButton = document.getElementById("love-test");
+const loveButton = document.getElementById("love-button");
 const logoNotif = document.getElementById("logo-notif");
 
 let notif = 0;

@@ -263,7 +263,7 @@ div.section-space {
 /* LOVES */
 
 .main-love {
-  height: 37rem;
+  height: 38rem;
 }
 
 .love-image {
@@ -287,15 +287,15 @@ div.section-space {
   cursor: pointer;
 }
 
-/* .love-image:hover .overlay {
+.love-image:hover .overlay {
   opacity: 1;
-} */
+}
 
 /* .love-image:hover .love-btn {
   opacity: 1;
 } */
 
-/* .overlay {
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -308,7 +308,7 @@ div.section-space {
   );
   opacity: 0;
   transition: opacity 0.3s;
-} */
+}
 
 /* .love-btn {
   position: absolute;
@@ -469,6 +469,13 @@ div.section-space {
 .form-like:hover {
   background-color: #db9519;
   transition-duration: 0.13s;
+}
+
+/* # FOOTER */
+
+.footer-form {
+  color: #fff;
+  font-size: 1.6rem;
 }
 
 @media screen and (min-width: 1366px) {
