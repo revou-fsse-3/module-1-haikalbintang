@@ -8,6 +8,7 @@ body {
     ),
     url(https://static.vecteezy.com/system/resources/previews/001/834/542/non_2x/abstract-dots-animal-print-design-leopard-print-design-cheetah-skin-background-free-vector.jpg);
   /* background-color: #00000049; */
+  padding: 0rem 2rem 2rem;
 }
 
 h2,
@@ -438,6 +439,7 @@ div.section-space {
 .facts-content-photo {
   height: 40rem;
   box-shadow: 0rem 0rem 1rem #384423;
+  margin: 0rem 2rem;
 }
 
 /* VIDEO */
@@ -489,21 +491,21 @@ div.section-space {
 
 @media screen and (min-width: 640px) {
   body {
-    max-width: 640px;
+    /* max-width: 640px; */
     margin: auto;
   }
 }
 
 @media screen and (min-width: 768px) {
   body {
-    max-width: 768px;
+    /* max-width: 768px; */
     margin: auto;
   }
 }
 
 @media screen and (min-width: 1024px) {
   body {
-    max-width: 1024px;
+    /* max-width: 1024px; */
     margin: auto;
   }
   .hamburger-menu {
@@ -513,7 +515,7 @@ div.section-space {
 
 @media screen and (min-width: 1280px) {
   body {
-    max-width: 1280px;
+    /* max-width: 1280px; */
     margin: auto;
   }
 }
@@ -564,16 +566,25 @@ div.section-space {
   .love-image {
     height: 100%;
   }
+  .facts-content-ul {
+    margin-left: 3rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .main-love {
-    height: 245rem;
+    height: 273.5rem;
   }
   .love-images {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+  }
+  .main-facts {
+    height: 69rem;
+  }
+  .facts-content-photo {
+    height: 35rem;
   }
 }
 

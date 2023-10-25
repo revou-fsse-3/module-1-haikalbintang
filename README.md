@@ -1,6 +1,6 @@
 # CHECKPOINT#2
 
-**Link Deploy:** **[Cheetah Photo App](https://profound-dusk-49219e.netlify.app/)**
+**Link Deploy:** **[AADC: Cheetah. Photo App](https://profound-dusk-49219e.netlify.app/)**
 
 # DOUJUTSU NARUTO
 
