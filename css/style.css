@@ -489,9 +489,23 @@ div.section-space {
   }
 }
 
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 768px;
+    margin: auto;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   body {
     max-width: 1024px;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body {
+    max-width: 1280px;
     margin: auto;
   }
 }
