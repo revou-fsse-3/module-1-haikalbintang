@@ -482,6 +482,20 @@ div.section-space {
   font-size: 1.6rem;
 }
 
+@media screen and (min-width: 640px) {
+  body {
+    max-width: 640px;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    max-width: 1024px;
+    margin: auto;
+  }
+}
+
 @media screen and (min-width: 1366px) {
   body {
     max-width: 1366px;
@@ -490,6 +504,7 @@ div.section-space {
     /* box-shadow: 0rem 0rem 1rem #384423; */
   }
 }
+
 /* @media screen and (max-width: 1920px) {
   body {
     max-width: 1366px;
