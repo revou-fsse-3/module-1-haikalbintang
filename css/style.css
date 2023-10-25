@@ -170,6 +170,11 @@ a:active {
   transition-duration: 0.13s;
 }
 
+.hamburger-menu {
+  font-size: 2.8rem;
+  margin-right: 2rem;
+}
+
 /* ## BELOW HEADER */
 
 .below-header
@@ -501,6 +506,9 @@ div.section-space {
     max-width: 1024px;
     margin: auto;
   }
+  .hamburger-menu {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -516,6 +524,15 @@ div.section-space {
     margin: auto;
     /* background-color: #ddd9d3; */
     /* box-shadow: 0rem 0rem 1rem #384423; */
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 1024px) {
+  .main-nav-list {
+    display: none;
   }
 }
 
