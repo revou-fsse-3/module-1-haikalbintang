@@ -25,52 +25,51 @@
   </head>
 
   <body>
-    <header class="above-header">
-      <p>Powered by RevoU</p>
+    <header>
+      <div class="upper-header">
+        <p>Powered by RevoU</p>
+      </div>
+      <div class="the-header">
+        <a class="logo" href="#">
+          <img
+            class="logo-img"
+            src="./img/logos/AADC_logo.png"
+            alt="Cheetah cute logo"
+          />
+          <strong class="logo-title">AADC</strong>
+          <span class="logo-notif" id="logo-notif">0</span>
+        </a>
+        <nav class="main-nav">
+          <div class="search-container">
+            <form
+              class="search-form"
+              action="https://en.wikipedia.org/wiki/Cheetah"
+              method="get"
+            >
+              <input
+                class="search-form-input"
+                type="text"
+                placeholder="Search..."
+              />
+              <button class="search-form-button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+          <ul class="main-nav-list">
+            <li class="main-nav-link">
+              <a href="#">Ada</a>
+            </li>
+            <li class="main-nav-link"><a href="#">Apa</a></li>
+            <li class="main-nav-link"><a href="#">Dengan</a></li>
+            <li class="main-nav-link cheetah-btn">
+              <a href="#section-form">Cheetah?</a>
+            </li>
+          </ul>
+          <i class="fa-solid fa-bars hamburger-menu" style="color: #ffffff"></i>
+        </nav>
+      </div>
     </header>
-    <header class="header">
-      <a class="logo" href="#">
-        <img
-          class="logo-img"
-          src="./img/logos/AADC_logo.png"
-          alt="Cheetah cute logo"
-        />
-        <strong class="logo-title">AADC</strong>
-        <span class="logo-notif" id="logo-notif">0</span>
-      </a>
-      <nav class="main-nav">
-        <div class="search-container">
-          <form
-            class="search-form"
-            action="https://en.wikipedia.org/wiki/Cheetah"
-            method="get"
-          >
-            <input
-              class="search-form-input"
-              type="text"
-              placeholder="Search..."
-            />
-            <button class="search-form-button">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-          </form>
-        </div>
-        <ul class="main-nav-list">
-          <li class="main-nav-link">
-            <a href="#">Ada</a>
-          </li>
-          <li class="main-nav-link"><a href="#">Apa</a></li>
-          <li class="main-nav-link"><a href="#">Dengan</a></li>
-          <li class="main-nav-link cheetah-btn">
-            <a href="#section-form">Cheetah?</a>
-          </li>
-        </ul>
-        <i class="fa-solid fa-bars hamburger-menu" style="color: #ffffff"></i>
-      </nav>
-    </header>
-    <header class="below-header"></header>
-
-    <div class="under-header"></div>
 
     <main>
       <section class="main main-hero section-hero">
@@ -83,8 +82,6 @@
           the fastest mammal on earth!
         </p>
       </section>
-
-      <div class="section-space"></div>
 
       <section class="main main-love section-love">
         <h2 class="heading-secondary">Cheetah Photos</h2>
@@ -130,8 +127,6 @@
         </div>
       </section>
 
-      <div class="section-space"></div>
-
       <section class="main main-facts">
         <div class="section-facts">
           <h2 class="heading-secondary">Facts about Cheetahs</h2>
@@ -170,8 +165,6 @@
         </div>
       </section>
 
-      <div class="section-space"></div>
-
       <section class="main main-video section-video">
         <h2 class="heading-secondary">A-Cheetah-Running Video</h2>
         <iframe
@@ -186,8 +179,6 @@
         ></iframe>
       </section>
 
-      <div class="section-space"></div>
-
       <section id="section-form" class="main section-form">
         <h2 class="heading-secondary">Join AADC!</h2>
         <button class="form-like" id="increment-button">We ❤️ Cheetah!</button>
@@ -195,11 +186,11 @@
     </main>
 
     <footer id="footer-form" class="footer-form">
-      <h2>Contribute to this Community!</h2>
-      <form action="" method="get" id="form-sign-in">
+      <h2 class="form-heading">Contribute to this Community!</h2>
+      <form action="" method="get" class="form--1" id="form-sign-in">
         <fieldset>
           <legend>Sign In</legend>
-          <div>
+          <div class="username">
             <label for="username">username:</label>
             <input
               type="text"

@@ -1,4 +1,4 @@
-/* # BODY */
+/* BODY */
 
 body {
   background-image: linear-gradient(
@@ -7,34 +7,32 @@ body {
       rgb(0, 0, 0)
     ),
     url(https://static.vecteezy.com/system/resources/previews/001/834/542/non_2x/abstract-dots-animal-print-design-leopard-print-design-cheetah-skin-background-free-vector.jpg);
-  /* background-color: #00000049; */
   padding: 0rem 2rem 2rem;
 }
 
-h2,
-h3 {
-  display: flex;
-  justify-content: center;
+/* 1. Header */
+
+header {
+  display: unset;
 }
 
-/* ## ABOVE-HEADER */
+/* 1.1. Upper-Header */
 
-.above-header {
+.upper-header {
   background-color: #fcdc2c;
   height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: static;
   & p {
     color: #080804;
     font-size: 1.6rem;
   }
 }
 
-/* ## HEADER */
+/* 1.2. The-Header-Container */
 
-.header {
+.the-header {
   display: flex;
   justify-content: space-between;
   border-bottom: 0.4rem solid #13170c;
@@ -47,7 +45,7 @@ h3 {
   border-radius: 0rem 0rem 1rem 1rem;
 }
 
-/* ### LOGO */
+/* 1.2.1. Nav-Left */
 
 .logo {
   display: flex;
@@ -85,13 +83,14 @@ h3 {
   left: 14.9rem;
 }
 
+/* 1.2.2. Nav-Right */
+
 .main-nav {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
 }
 
-/* ### SEARCH BAR */
+/* 1.2.2.1 Search-Bar */
 
 .search-container {
   display: flex;
@@ -105,7 +104,6 @@ h3 {
   border: 0rem solid #ccc;
   border-radius: 0.5rem 0rem 0rem 0.5rem;
   font-size: 1.6rem;
-  /* margin: -1rem 0rem 0rem 0rem; */
 }
 
 .search-form-button {
@@ -116,17 +114,16 @@ h3 {
   padding: 1rem 2rem;
   margin-left: 0px;
   cursor: pointer;
+  & i {
+    font-size: 2rem;
+  }
 }
 
 .search-form-button:hover {
   background-color: #425029;
 }
 
-.search-form-button i {
-  font-size: 2rem;
-}
-
-/* ### NAV */
+/* 1.2.2.2. Right-Nav-List */
 
 .main-nav-list {
   display: flex;
@@ -171,36 +168,23 @@ a:active {
   transition-duration: 0.13s;
 }
 
+/* 1.2.2.3. Hamburger-Menu */
+
 .hamburger-menu {
   font-size: 2.8rem;
   margin-right: 2rem;
 }
 
-/* ## BELOW HEADER */
-
-.below-header
-
-/* ## UNDER-HEADER */
-
-div.under-header {
-  height: 0rem;
-}
-
-/* ## MAIN */
+/* 2. Main */
 
 .main {
   background-color: #f5f1ea;
   box-shadow: 0rem 0rem 1rem #384423;
   border-radius: 1rem;
-  margin-bottom: 2rem;
-  /* border: 0.4rem solid #13170c; */
+  margin-bottom: 2.5rem;
 }
 
-/* .main section:not(:last-child) {
-  margin-bottom: 5rem;
-} */
-
-/* ### HERO */
+/* 2.1. Hero */
 
 .section-hero {
   display: flex;
@@ -217,23 +201,7 @@ div.under-header {
       rgb(0, 0, 0)
     ),
     url(https://images.unsplash.com/photo-1619494296448-ab5f847ece97?auto=format&fit=crop&q=80&w=1450&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  /* box-shadow: 0rem 1rem 6rem 6rem #db9519; */
-  /* margin-bottom: 100rem; */
-  /* border-bottom: 0.4rem solid #13170c; */
 }
-
-/* .heading-primary {
-  display: flex;
-  justify-content: end;
-  font-size: 5rem;
-  color: #fff;
-  justify-content: flex-end;
-} */
-
-/* .hero-heading {
-  margin-top: 2rem;
-  margin-bottom: 10rem;
-} */
 
 .heading-primary--1 {
   margin-left: auto;
@@ -262,14 +230,16 @@ div.under-header {
   letter-spacing: 0.05rem;
 }
 
-/* UNDER HERO */
+/* 2.2. Loves */
 
-div.section-space {
-  height: 1rem;
-  background-color: #ffffff00;
+h2,
+.heading-secondary {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  padding: 3rem 0rem 3rem;
+  color: #384423;
 }
-
-/* LOVES */
 
 .main-love {
   padding-bottom: 4rem;
@@ -320,28 +290,6 @@ div.section-space {
   /* box-shadow: 0rem 0rem 1rem #384423; */
 }
 
-/* PHOTOS */
-
-.heading-secondary {
-  font-size: 4rem;
-  padding: 3rem 0rem 3rem;
-  /* margin-top: 4rem;
-  margin-bottom: 3rem; */
-  color: #384423;
-}
-
-.photos-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-}
-
-/* .gallery {
-  width: 25%;
-  height: 200px;
-  object-fit: cover;
-} */
-
 .gallery:before {
   content: "";
   display: block;
@@ -357,28 +305,7 @@ div.section-space {
   height: 100%;
 }
 
-/* .gallery:hover {
-  cursor: zoom-in;
-  transition: transform 0.25s ease;
-} */
-
-/* .photo-1 {
-  object-position: 0px -32px;
-}
-
-.photo-2 {
-  object-position: -70px 0px;
-}
-
-.photo-3 {
-  object-position: -30px 0px;
-}
-
-.photo-4 {
-  object-position: -10px 0px;
-} */
-
-/* FACTS */
+/* 2.3. Facts */
 
 .main-facts {
   height: fit-content;
@@ -403,7 +330,7 @@ div.section-space {
   margin: 0rem 2rem;
 }
 
-/* VIDEO */
+/* 2.4. Video */
 
 .main-video {
   display: flex;
@@ -420,7 +347,7 @@ div.section-space {
   margin: 0rem auto;
 }
 
-/* FORM */
+/* 2.5. Love-Button */
 
 .section-form {
   display: flex;
@@ -445,12 +372,24 @@ div.section-space {
   transition-duration: 0.13s;
 }
 
-/* # FOOTER */
+/* 3. Footer */
 
 .footer-form {
   color: #fff;
   font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+.form-heading {
+  color: #fff;
+}
+
+/* RESPONSIVESNESS */
+
+/* 1. Desktop */
 
 @media screen and (max-width: 1280px) {
   .main-love {
@@ -511,49 +450,21 @@ div.section-space {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .search-container {
+    display: none;
+  }
+}
+
 /* 0 */
 
-@media screen and (min-width: 640px) {
-  body {
-    /* max-width: 640px; */
-    margin: auto;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  body {
-    /* max-width: 768px; */
-    margin: auto;
-  }
-}
-
 @media screen and (min-width: 1024px) {
-  body {
-    /* max-width: 1024px; */
-    margin: auto;
-  }
   .hamburger-menu {
     display: none;
   }
 }
 
-@media screen and (min-width: 1280px) {
-  body {
-    /* max-width: 1280px; */
-    margin: auto;
-  }
-}
-
-@media screen and (min-width: 1366px) {
-  body {
-    max-width: 1366px;
-    margin: auto;
-    /* background-color: #ddd9d3; */
-    /* box-shadow: 0rem 0rem 1rem #384423; */
-  }
-}
-
-/* MOBILE */
+/* 2. Mobile */
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   body {
@@ -579,9 +490,6 @@ div.section-space {
         rgb(0, 0, 0)
       ),
       url(https://images.unsplash.com/photo-1619494296448-ab5f847ece97?auto=format&fit=crop&q=80&w=1450&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    /* box-shadow: 0rem 1rem 6rem 6rem #db9519; */
-    /* margin-bottom: 100rem; */
-    /* border-bottom: 0.4rem solid #13170c; */
   }
   .heading-primary--1 {
     margin-left: auto;
@@ -610,12 +518,7 @@ div.section-space {
   .heading-secondary {
     font-size: 2.5rem;
     padding: 2rem 0rem 1.5rem;
-    /* margin-top: 4rem;
-    margin-bottom: 3rem; */
     color: #384423;
-  }
-  div.section-space {
-    height: 0.5rem;
   }
   .main-love {
     height: 105rem;
@@ -634,7 +537,6 @@ div.section-space {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* min-height: 82.1rem; */
   }
   .facts-content {
     display: flex;
@@ -653,10 +555,3 @@ div.section-space {
     height: auto;
   }
 }
-
-/* @media screen and (max-width: 1920px) {
-  body {
-    max-width: 1366px;
-    margin: auto;
-  }
-} */
