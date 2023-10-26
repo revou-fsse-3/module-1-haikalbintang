@@ -445,7 +445,7 @@ div.section-space {
 
 .main-video {
   display: flex;
-  height: 48rem;
+  height: fit-content;
 }
 
 .section-video {
@@ -682,8 +682,8 @@ div.section-space {
     margin-bottom: 1.5rem;
   }
   .main-video {
-    height: 25rem;
-    padding-bottom: 2rem;
+    height: fit-content;
+    padding-bottom: 3rem;
   }
   .video-cheetah-running {
     width: 30rem;
