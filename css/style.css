@@ -444,6 +444,7 @@ div.section-space {
 /* VIDEO */
 
 .main-video {
+  display: flex;
   height: 48rem;
 }
 
@@ -453,7 +454,7 @@ div.section-space {
 }
 
 .video-cheetah-running {
-  margin: auto;
+  margin: 0rem auto;
 }
 
 /* FORM */
