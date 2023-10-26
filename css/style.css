@@ -271,9 +271,9 @@ div.section-space {
 
 /* LOVES */
 
-.main-love {
+/* .main-love {
   padding: 3rem 0rem;
-}
+} */
 
 .love-image {
   position: static;
@@ -605,7 +605,7 @@ div.section-space {
     color: #fff;
     background-color: #333;
     background-position: center;
-    background-size: 50rem;
+    background-size: 60rem;
     height: 40rem;
     padding-top: 2rem;
     justify-content: space-between;
@@ -654,17 +654,23 @@ div.section-space {
     height: 0.5rem;
   }
   .main-love {
-    height: 120rem;
+    height: 105rem;
+  }
+  .love-images {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 22rem);
   }
   .main-facts {
-    height: 98rem;
+    height: fit-content;
+    padding-bottom: 3rem;
   }
   .section-facts {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100rem;
+    /* min-height: 82.1rem; */
   }
   .facts-content {
     display: flex;
@@ -676,6 +682,7 @@ div.section-space {
   }
   .main-video {
     height: 25rem;
+    padding-bottom: 2rem;
   }
   .video-cheetah-running {
     width: 30rem;
