@@ -138,7 +138,6 @@ header {
   font-size: 1.6rem;
   font-weight: 520;
   text-decoration: none;
-  /* display: inline-block; */
 }
 
 .main-nav-link:not(:last-child) a:link,
@@ -244,6 +243,13 @@ h2,
 .main-love {
   padding-bottom: 4rem;
   height: fit-content;
+}
+
+.love-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 20rem;
+  column-gap: 1.2rem;
 }
 
 .love-image {
@@ -392,20 +398,11 @@ h2,
 /* 1. Desktop */
 
 @media screen and (max-width: 1280px) {
-  .main-love {
-    height: 79rem;
-  }
   .love-images {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 30rem);
-    row-gap: 1.2rem;
-  }
-  .gallery {
-    height: 100%;
-  }
-  .love-image {
-    height: 100%;
+    column-gap: 2rem;
+    row-gap: 3rem;
   }
 }
 
@@ -413,20 +410,11 @@ h2,
   .main-nav-list {
     display: none;
   }
-  .main-love {
-    height: 63rem;
-  }
   .love-images {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 22rem);
-    row-gap: 1.2rem;
-  }
-  .gallery {
-    height: 100%;
-  }
-  .love-image {
-    height: 100%;
+    column-gap: 1.2rem;
+    row-gap: 1.8rem;
   }
   .facts-content-ul {
     margin-left: 3rem;
@@ -434,25 +422,16 @@ h2,
 }
 
 @media screen and (max-width: 768px) {
-  .main-love {
-    height: 273.5rem;
+  .search-container {
+    display: none;
   }
   .love-images {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  .main-facts {
-    height: 52.5rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 40rem);
+    column-gap: 2rem;
   }
   .facts-content-photo {
     height: 35rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .search-container {
-    display: none;
   }
 }
 
@@ -464,90 +443,57 @@ h2,
   }
 }
 
+@media screen and (min-width: 1366px) {
+  body {
+    max-width: 1366px;
+    margin: auto;
+  }
+}
+
 /* 2. Mobile */
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   body {
-    margin: auto;
     padding: 0rem 1rem 2rem;
   }
-  .search-container {
-    display: none;
-  }
   .section-hero {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    background-color: #333;
     background-position: 40% 50%;
     background-size: 75rem;
     height: 50rem;
     padding-top: 2rem;
-    justify-content: space-between;
-    background-image: linear-gradient(
-        to top right,
-        rgba(255, 255, 255, 0),
-        rgb(0, 0, 0)
-      ),
-      url(https://images.unsplash.com/photo-1619494296448-ab5f847ece97?auto=format&fit=crop&q=80&w=1450&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   }
   .heading-primary--1 {
-    margin-left: auto;
     font-size: 6.6rem;
-    display: flex;
-    justify-content: end;
     margin: 1rem;
-    font-family: "Roboto Serif", serif;
-    font-weight: 400;
   }
   .heading-primary--2 {
     margin-right: 0rem;
-    margin-left: auto;
     font-size: 3.7rem;
-    display: flex;
-    justify-content: end;
     margin: 0rem 1.3rem;
   }
   .hero-desc {
     font-size: 1.75rem;
-    line-height: 1.5;
     margin: 1rem;
-    font-family: "Roboto Serif", serif;
-    letter-spacing: 0.05rem;
   }
   .heading-secondary {
     font-size: 2.5rem;
     padding: 2rem 0rem 1.5rem;
-    color: #384423;
-  }
-  .main-love {
-    height: 105rem;
   }
   .love-images {
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 22rem);
   }
   .main-facts {
-    height: fit-content;
     padding-bottom: 3rem;
-  }
-  .section-facts {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   .facts-content {
     display: flex;
     flex-direction: column-reverse;
   }
   .facts-content-photo {
-    box-shadow: none;
     margin-bottom: 1.5rem;
   }
   .main-video {
-    height: fit-content;
     padding-bottom: 3rem;
   }
   .video-cheetah-running {
