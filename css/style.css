@@ -271,15 +271,13 @@ div.section-space {
 
 /* LOVES */
 
-/* .main-love {
-  padding: 3rem 0rem;
-} */
+.main-love {
+  padding-bottom: 4rem;
+  height: fit-content;
+}
 
 .love-image {
-  position: static;
-  /* z-index: 1; */
-  /* overflow: hidden; */
-  /* cursor: pointer; */
+  position: relative;
 }
 
 .fa-heart {
@@ -300,10 +298,6 @@ div.section-space {
   opacity: 1;
 }
 
-/* .love-image:hover .love-btn {
-  opacity: 1;
-} */
-
 .overlay {
   position: absolute;
   top: 0;
@@ -319,39 +313,6 @@ div.section-space {
   transition: opacity 0.3s;
 }
 
-/* .love-btn {
-  position: absolute;
-  bottom: 2rem;
-  right: 2rem;
-  font-size: 5rem;
-  opacity: 0;
-  transition: opacity 0.3s;
-} */
-
-/* .love-images {
-  height: 20rem;
-  position: relative;
-  background-image: url("/img/gallery/photos-2.jpg");
-} */
-
-/* .square {
-  height: 300px;
-  widtH: 300px;
-  border: 1px solid black;
-  position: relative;
-} */
-
-/* .love-image:before {
-  content: "";
-  display: block;
-  position: absolute;
-  height: 0%;
-  width: 100%;
-  bottom: 0;
-  transition: height 0.5s ease-out;
-  background: linear-gradient(to bottom, transparent 0%, black 100%);
-} */
-
 .gallery {
   width: 100%;
   height: 100%;
@@ -363,7 +324,7 @@ div.section-space {
 
 .heading-secondary {
   font-size: 4rem;
-  padding: 4rem 0rem 3rem;
+  padding: 3rem 0rem 3rem;
   /* margin-top: 4rem;
   margin-bottom: 3rem; */
   color: #384423;
@@ -420,7 +381,8 @@ div.section-space {
 /* FACTS */
 
 .main-facts {
-  height: 57rem;
+  height: fit-content;
+  padding-bottom: 4rem;
 }
 
 .facts-content {
@@ -446,6 +408,7 @@ div.section-space {
 .main-video {
   display: flex;
   height: fit-content;
+  padding-bottom: 4rem;
 }
 
 .section-video {
