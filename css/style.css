@@ -604,9 +604,9 @@ div.section-space {
     flex-direction: column;
     color: #fff;
     background-color: #333;
-    background-position: center;
-    background-size: 60rem;
-    height: 40rem;
+    background-position: 40% 50%;
+    background-size: 75rem;
+    height: 50rem;
     padding-top: 2rem;
     justify-content: space-between;
     background-image: linear-gradient(
