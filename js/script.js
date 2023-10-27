@@ -7,8 +7,8 @@ const likeButton = document.getElementById("increment-button");
 const loveButton = document.getElementById("love-button");
 const logoNotif = document.getElementById("logo-notif");
 
-// const footerForm = document.getElementById("footer-form");
-// footerForm.style.display = "none";
+const footerForm = document.getElementById("form-feedback");
+footerForm.style.display = "none";
 
 let notif = 0;
 // let love = 0;
