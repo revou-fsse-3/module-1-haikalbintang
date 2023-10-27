@@ -173,6 +173,11 @@ a:active {
   display: none;
   font-size: 2.8rem;
   margin-right: 2rem;
+  cursor: pointer;
+}
+
+.nav-hidden {
+  display: none;
 }
 
 /* 2. Main */
@@ -473,9 +478,51 @@ h2,
   .main-nav-list {
     display: none;
   }
+
+  /* exp */
   .menu-toggle {
     display: block;
   }
+  .nav-hidden {
+    border-bottom: 0.6rem solid #13170c;
+    background: #5e723b;
+    border-radius: 1rem;
+    position: absolute;
+    top: 6rem;
+    right: 0;
+  }
+  .nav-hidden.active {
+    display: block;
+  }
+  .nav-hidden ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-hidden li {
+    padding: 3rem 2rem;
+    border-bottom: 0.4rem solid #13170c;
+  }
+  .nav-hidden-li.cheetah-btn {
+    border-bottom: 0;
+  }
+  .nav-hidden li:last-child a:link,
+  a:visited {
+    background-color: #f3a51c;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    margin: 0;
+  }
+  .nav-hidden a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+  }
+  /* exp */
+
   .love-images {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 22rem);

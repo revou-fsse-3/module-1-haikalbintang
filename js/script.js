@@ -1,8 +1,7 @@
 "use strict";
 
-// alert("Hello 👋 Welcome to AADC: Cheetah. Photo App");
-
-// alert("Collect 10 loves and you can join Our Community! ❤️😊");
+alert("Hello 👋 Welcome to AADC: Cheetah. Photo App");
+alert("Collect 10 loves and you can join Our Community! ❤️😊");
 
 const likeButton = document.getElementById("increment-button");
 const loveButton = document.getElementById("love-button");
@@ -33,3 +32,12 @@ likeButton.onclick = totalNotif;
 
 // Love Button //
 loveButton.onclick = totalNotif;
+
+document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.querySelector(".menu-toggle");
+  const navHidden = document.querySelector(".nav-hidden");
+
+  menuToggle.addEventListener("click", function () {
+    navHidden.classList.toggle("active");
+  });
+});
