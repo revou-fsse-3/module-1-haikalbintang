@@ -199,14 +199,18 @@
     </main>
 
     <footer id="footer-form" class="footer-form">
-      <h2 class="form-heading">Contribute to this Community!</h2>
+      <h2 class="form-heading heading-secondary">
+        Contribute to this Community!
+      </h2>
       <form action="" method="get" class="form--1" id="form-sign-in">
-        <fieldset>
+        <fieldset class="sign-in-form">
           <legend>Sign In</legend>
           <div class="username">
             <label for="username">username:</label>
+            <br />
             <input
               type="text"
+              class="form-input"
               id="username"
               name="username"
               required
@@ -215,32 +219,73 @@
           </div>
           <div>
             <label for="password">password:</label>
-            <input type="password" id="password" name="password" required />
+            <br />
+            <input
+              type="password"
+              class="form-input"
+              id="password"
+              name="password"
+              required
+            />
           </div>
-          <input type="submit" value="Sign in" />
+          <div class="form-submit-container">
+            <input class="form-submit" type="submit" value="Sign in" />
+          </div>
         </fieldset>
       </form>
       <form action="" method="get" id="form-feedback">
-        <fieldset>
+        <fieldset class="feedback-form">
           <legend>Tell Us What You Wanna Tell</legend>
           <div>
             <p>What is your favorite animal?</p>
-            <input type="radio" id="cheetah-1" name="cheetah" value="cheetah" />
-            <label for="cheetah-1">Cheetah</label>
-            <input type="radio" id="cheetah-2" name="cheetah" value="cheetah" />
-            <label for="cheetah-2">Cheetah. 🤬</label>
-            <input type="radio" id="cheetah-3" name="cheetah" value="cheetah" />
-            <label for="cheetah-3">Of course, Cheetah! 😆</label>
+            <div class="radio-input-label">
+              <div class="radio-input-label--1">
+                <input
+                  type="radio"
+                  class="form-radio"
+                  id="cheetah-1"
+                  name="cheetah"
+                  value="cheetah"
+                />
+                <label class="form-radio-label" for="cheetah-1">Cheetah</label>
+              </div>
+              <div class="radio-input-label--2">
+                <input
+                  type="radio"
+                  class="form-radio"
+                  id="cheetah-2"
+                  name="cheetah"
+                  value="cheetah"
+                />
+                <label class="form-radio-label cheetah-2" for="cheetah-2"
+                  >Cheetah. 🤬</label
+                >
+              </div>
+              <div class="radio-input-label--3">
+                <input
+                  type="radio"
+                  class="form-radio"
+                  id="cheetah-3"
+                  name="cheetah"
+                  value="cheetah"
+                />
+                <label class="form-radio-label last-child" for="cheetah-3"
+                  >Of course, Cheetah! 😆</label
+                >
+              </div>
+            </div>
           </div>
           <div>
             <p>Why do you love Cheetah so much?</p>
-            <textarea rows="3"></textarea>
+            <textarea class="form-text-area" rows="3"></textarea>
           </div>
           <div>
-            <p>Any feedback?</p>
-            <textarea rows="3"></textarea>
+            <p>Any feedback for Us?</p>
+            <textarea class="form-text-area" rows="3"></textarea>
           </div>
-          <input type="submit" value="Submit" />
+          <div class="form-submit-container">
+            <input class="form-submit" type="submit" value="Submit" />
+          </div>
         </fieldset>
       </form>
     </footer>
